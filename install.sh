@@ -14,3 +14,6 @@ sudo cp /home/$USER/go/bin/ccat /usr/bin/cat
 # copy files to home directory
 cp .zshrc ~
 cp .p10k.zsh ~
+
+
+sudo chsh
