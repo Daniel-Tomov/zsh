@@ -8,6 +8,7 @@ curl -L git.io/antigen > antigen.zsh
 #install colorized cat
 sudo apt install golang-go -y
 go get -u github.com/owenthereal/ccat
+sudo mv /usr/bin/cat /usr/bin/concat
 sudo cp /home/$USER/go/bin/ccat /usr/bin/ccat
 sudo cp /home/$USER/go/bin/ccat /usr/bin/cat
 
