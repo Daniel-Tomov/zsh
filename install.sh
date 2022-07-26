@@ -2,7 +2,7 @@
 sudo apt update
 
 #install zsh and any other stuff
-sudo apt install curl git zsh -y
+sudo apt install curl git zsh autojump -y
 curl -L git.io/antigen > antigen.zsh
 
 #install colorized cat
