@@ -1,3 +1,5 @@
+#update
+sudo apt update
 
 #install zsh and any other stuff
 sudo apt install curl git zsh -y
